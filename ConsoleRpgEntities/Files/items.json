@@ -1,0 +1,122 @@
+﻿[
+  {
+    "Name": "Sword",
+    "Type": "Weapon",
+    "Description": "A sharp blade.",
+    "AttributeModifiers": {
+      "Attack": 5,
+      "Strength": 2
+    }
+  },
+  {
+    "Name": "Shield",
+    "Type": "Armor",
+    "Description": "Protects against attacks.",
+    "AttributeModifiers": {
+      "Defense": 3,
+      "Constitution": 1
+    }
+  },
+  {
+    "Name": "Potion",
+    "Type": "Consumable",
+    "Description": "Restores health.",
+    "AttributeModifiers": { "HitPoints": 10 }
+  },
+  {
+    "Name": "Bow",
+    "Type": "Weapon",
+    "Description": "A finely crafted bow.",
+    "AttributeModifiers": {
+      "Attack": 4,
+      "Dexterity": 2
+    }
+  },
+  {
+    "Name": "Quiver",
+    "Type": "Gear",
+    "Description": "Holds arrows for quick access.",
+    "AttributeModifiers": { "Dexterity": 1 }
+  },
+  {
+    "Name": "Cloak",
+    "Type": "Armor",
+    "Description": "A cloak for stealth and protection.",
+    "AttributeModifiers": {
+      "Defense": 1,
+      "Wisdom": 1
+    }
+  },
+  {
+    "Name": "Staff",
+    "Type": "Weapon",
+    "Description": "A magical staff.",
+    "AttributeModifiers": {
+      "Attack": 3,
+      "Intelligence": 2
+    }
+  },
+  {
+    "Name": "Spellbook",
+    "Type": "Gear",
+    "Description": "Contains powerful spells.",
+    "AttributeModifiers": {
+      "Intelligence": 2,
+      "Wisdom": 1
+    }
+  },
+  {
+    "Name": "Robe",
+    "Type": "Armor",
+    "Description": "A robe that enhances magical defense.",
+    "AttributeModifiers": { "Defense": 2 }
+  },
+  {
+    "Name": "Lance",
+    "Type": "Weapon",
+    "Description": "A long lance for mounted combat.",
+    "AttributeModifiers": {
+      "Attack": 6,
+      "Strength": 1
+    }
+  },
+  {
+    "Name": "Armor",
+    "Type": "Armor",
+    "Description": "Heavy armor for maximum protection.",
+    "AttributeModifiers": {
+      "Defense": 4,
+      "Constitution": 2
+    }
+  },
+  {
+    "Name": "Horse",
+    "Type": "Gear",
+    "Description": "A loyal steed.",
+    "AttributeModifiers": { "Dexterity": 1 }
+  },
+  {
+    "Name": "Axe",
+    "Type": "Weapon",
+    "Description": "A heavy axe for powerful strikes.",
+    "AttributeModifiers": {
+      "Attack": 5,
+      "Strength": 2
+    }
+  },
+  {
+    "Name": "Helmet",
+    "Type": "Armor",
+    "Description": "A sturdy helmet for head protection.",
+    "AttributeModifiers": { "Defense": 2 }
+  },
+  {
+    "Name": "Ring",
+    "Type": "Gear",
+    "Description": "A mysterious ring.",
+    "AttributeModifiers": {
+      "Wisdom": 1,
+      "Charisma": 1
+    }
+  }
+]

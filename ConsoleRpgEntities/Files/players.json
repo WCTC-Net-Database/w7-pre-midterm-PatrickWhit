@@ -1,0 +1,97 @@
+﻿[
+	{
+		"Name": "Brave Sir Robin",
+		"Profession": "Fighter",
+		"Level": 1,
+		"AbilityScores": {
+			"Strength": 12,
+			"Dexterity": 10,
+			"Intelligence": 8,
+			"Wisdom": 9,
+			"Charisma": 11,
+			"Constitution": 13,
+			"Attack": 5,
+			"Defense": 3,
+			"Health": 10,
+			"HitPoints": 10,
+			"Gold": 50
+		},
+		"Items": [ "Sword", "Shield", "Potion" ]
+	},
+	{
+		"Name": "Lady Marian",
+		"Profession": "Archer",
+		"Level": 2,
+		"AbilityScores": {
+			"Strength": 9,
+			"Dexterity": 14,
+			"Intelligence": 11,
+			"Wisdom": 12,
+			"Charisma": 13,
+			"Constitution": 10,
+			"Attack": 4,
+			"Defense": 2,
+			"Health": 12,
+			"HitPoints": 12,
+			"Gold": 75
+		},
+		"Items": [ "Bow", "Quiver", "Cloak" ]
+	},
+	{
+		"Name": "Merlin",
+		"Profession": "Wizard",
+		"Level": 3,
+		"AbilityScores": {
+			"Strength": 7,
+			"Dexterity": 9,
+			"Intelligence": 16,
+			"Wisdom": 15,
+			"Charisma": 12,
+			"Constitution": 8,
+			"Attack": 3,
+			"Defense": 2,
+			"Health": 8,
+			"HitPoints": 8,
+			"Gold": 120
+		},
+		"Items": [ "Staff", "Spellbook", "Robe" ]
+	},
+	{
+		"Name": "Sir Lancelot",
+		"Profession": "Knight",
+		"Level": 2,
+		"AbilityScores": {
+			"Strength": 14,
+			"Dexterity": 11,
+			"Intelligence": 10,
+			"Wisdom": 10,
+			"Charisma": 13,
+			"Constitution": 15,
+			"Attack": 6,
+			"Defense": 4,
+			"Health": 15,
+			"HitPoints": 15,
+			"Gold": 60
+		},
+		"Items": [ "Lance", "Armor", "Horse" ]
+	},
+	{
+		"Name": "Thorin Oakenshield",
+		"Profession": "Dwarf",
+		"Level": 1,
+		"AbilityScores": {
+			"Strength": 13,
+			"Dexterity": 8,
+			"Intelligence": 10,
+			"Wisdom": 11,
+			"Charisma": 10,
+			"Constitution": 14,
+			"Attack": 5,
+			"Defense": 2,
+			"Health": 13,
+			"HitPoints": 13,
+			"Gold": 40
+		},
+		"Items": [ "Axe", "Helmet", "Ring" ]
+	}
+]

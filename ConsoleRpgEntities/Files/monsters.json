@@ -1,0 +1,61 @@
+﻿[
+	{
+		"$type": "Goblin",
+		"Name": "Bob Goblin",
+		"Type": "Goblin",
+		"Level": 1,
+		"Health": 5,
+		"Treasure": "club"
+	},
+	{
+		"$type": "Goblin",
+		"Name": "Tom Goblin",
+		"Type": "Goblin",
+		"Level": 2,
+		"Health": 7,
+		"Treasure": "dagger"
+	},
+	{
+		"$type": "Goblin",
+		"Name": "Boss Goblin",
+		"Type": "Goblin",
+		"Level": 3,
+		"Health": 12,
+		"Treasure": "golden crown"
+	},
+	{
+		"$type": "Goblin",
+		"Name": "Sneaky Goblin",
+		"Type": "Goblin",
+		"Level": 1,
+		"Health": 4,
+		"Treasure": "lockpick"
+	},
+	{
+		"$type": "Dragon",
+		"Name": "Smaug",
+		"Type": "Dragon",
+		"Level": 10,
+		"Health": 100,
+		"FirePower": 50,
+		"Element": "Fire"
+	},
+	{
+		"$type": "Dragon",
+		"Name": "Frostwing",
+		"Type": "Dragon",
+		"Level": 8,
+		"Health": 80,
+		"FirePower": 40,
+		"Element": "Ice"
+	},
+	{
+		"$type": "Dragon",
+		"Name": "Stormclaw",
+		"Type": "Dragon",
+		"Level": 6,
+		"Health": 60,
+		"FirePower": 30,
+		"Element": "Lightning"
+	}
+]
