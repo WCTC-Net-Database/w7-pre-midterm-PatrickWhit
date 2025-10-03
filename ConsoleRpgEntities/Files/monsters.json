@@ -32,6 +32,14 @@
 		"Treasure": "lockpick"
 	},
 	{
+		"$type": "Troll",
+		"Name": "Clump",
+		"Type": "Troll",
+		"Level": 1,
+		"Health": 4,
+		"Treasure": "Bag"
+	},
+	{
 		"$type": "Dragon",
 		"Name": "Smaug",
 		"Type": "Dragon",

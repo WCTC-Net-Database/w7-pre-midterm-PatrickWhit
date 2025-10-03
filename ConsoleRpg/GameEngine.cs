@@ -7,6 +7,7 @@ namespace ConsoleRpg;
 public class GameEngine
 {
     private readonly IPlayerService _playerService;
+    private readonly IMonsterService _monsterServce;
     private Player _player;
     private readonly IEntityDao<MonsterBase> _monsterDao;
     private readonly IGameUi _ui;
@@ -78,12 +79,15 @@ public class GameEngine
                     _ui.ShowMessage("Press Enter to return to the menu...");
                     _ui.GetUserInput();
                     break;
+                case "6":
+                    
+                    break;
                 case "0":
                     _ui.ShowMessage("Goodbye!");
                     Environment.Exit(0);
                     break;
                 default:
-                    _ui.ShowMessage("Invalid selection. Please choose 1, 2, 3, 4, 5, or 0.");
+                    _ui.ShowMessage("Invalid selection. Please choose 1, 2, 3, 4, 5, 6, or 0.");
                     break;
             }
         }

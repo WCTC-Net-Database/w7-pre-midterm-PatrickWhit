@@ -122,6 +122,9 @@ namespace ConsoleRpgEntities.Data
                                 case "Dragon":
                                     monster = JsonSerializer.Deserialize<Dragon>(element.GetRawText(), options);
                                     break;
+                                case "Troll":
+                                    monster = JsonSerializer.Deserialize<Troll>(element.GetRawText(), options);
+                                    break;
                             }
                             if (monster != null)
                                 Monsters.Add(monster);
