@@ -44,6 +44,7 @@ public static class Startup
         services.AddSingleton<IEntityDao<MonsterBase>, MonsterDao>();
         services.AddSingleton<IGameUi, ConsoleGameUi>();
         services.AddSingleton<IBattleService, BattleService>();
+        services.AddSingleton<IMonsterService, MonsterService>();
 
         // Register PlayerService and the decorator for IPlayerService.
         // Now PlayerService uses IEntityDao<Player>.

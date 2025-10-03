@@ -12,6 +12,7 @@ public class ConsoleGameUi : IGameUi
         Console.WriteLine("4. Battle a Monster");
         Console.WriteLine("5. Show Player Items"); // New option
         Console.WriteLine("6. List All Monsters");
+        Console.WriteLine("7. Fight");
         Console.WriteLine("0. Quit");
         Console.Write("Choose an action: ");
     }

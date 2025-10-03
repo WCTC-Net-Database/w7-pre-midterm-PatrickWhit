@@ -8,6 +8,7 @@ public class GameEngine
 {
     private readonly IPlayerService _playerService;
     private readonly IMonsterService _monsterServce;
+
     private Player _player;
     private readonly IEntityDao<MonsterBase> _monsterDao;
     private readonly IGameUi _ui;
@@ -15,6 +16,7 @@ public class GameEngine
 
     public GameEngine(
         IPlayerService playerService,
+        IMonsterService monsterService,
         IEntityDao<MonsterBase> monsterDao,
         IGameUi ui,
         IBattleService battleService)
@@ -80,7 +82,11 @@ public class GameEngine
                     _ui.GetUserInput();
                     break;
                 case "6":
-                    
+                    var monsters = _monsterDao.GetAll();
+                    _ui.ShowMonsters(monsters);
+                    break;
+                case "7":
+                    Fight();
                     break;
                 case "0":
                     _ui.ShowMessage("Goodbye!");
@@ -91,6 +97,16 @@ public class GameEngine
                     break;
             }
         }
+    }
+
+    private void Fight()
+    {
+        var monster = _monsterDao.GetByName("Clump");
+
+        _ui.ShowMessage($"A wild {monster.Name} appears");
+
+        var damage = monster.DealDamage();
+        _playerService.DamagePlayer(_player, damage);
     }
 
     private void BattleMonster()

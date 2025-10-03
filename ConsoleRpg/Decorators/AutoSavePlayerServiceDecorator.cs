@@ -81,6 +81,12 @@ public class AutoSavePlayerServiceDecorator : IPlayerService
         _context.SaveChanges();           // Persist
     }
 
+    public void DamagePlayer(Player player, int damage)
+    {
+        _service.DamagePlayer(player, damage);
+        _context.SaveChanges();
+    }
+
     /// <summary>
     /// For read-only operations, just pass through to the original service.
     /// No need to save changes.

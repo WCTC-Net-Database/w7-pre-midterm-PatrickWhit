@@ -7,4 +7,5 @@ public interface IPlayerService
     void LevelUpPlayer(Player player);
     void AddPlayer(Player player);
     List<Player> GetAllPlayers();
+    void DamagePlayer(Player player, int damage);
 }

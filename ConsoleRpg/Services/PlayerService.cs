@@ -18,6 +18,11 @@ namespace ConsoleRpg.Services
             _playerDao = playerDao;
         }
 
+        public void DamagePlayer(Player player, int damage)
+        {
+            Console.WriteLine($"{damage} is done to {player.Name}");
+        }
+
         public void LevelUpPlayer(Player player)
         {
             player.Level++;
